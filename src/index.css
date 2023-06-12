@@ -1,0 +1,33 @@
+.front {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    margin:auto;
+    border:3px;
+}
+#Links img{
+    width: 30px;
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    background-color: orange;
+}
+body {
+    background-color: rgb(159, 159, 165);
+}
+.Title {
+    font-size: 2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.RowOne {
+    background-color: rgb(57, 90, 119);
+}
+.RowTwo {
+    background-color: red;
+}
